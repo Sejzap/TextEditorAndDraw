@@ -1,0 +1,25 @@
+# 编译输出目录
+out/
+build/
+Debug/
+Release/
+x64/
+
+# Visual Studio 缓存
+.vs/
+*.vcxproj*
+CMakeUserPresets.json
+
+# Qt Creator 缓存
+CMakeLists.txt.user*
+
+# 编译生成的文件
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.dll
+*.lib
+*.exp
+*.moc
+mocs_compilation.cpp
