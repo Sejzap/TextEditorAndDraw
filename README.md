@@ -49,12 +49,19 @@
 
 
 \## 🚀 如何编译
+修改 CMakeLists.txt 中的 Qt 路径为你电脑上的实际路径：
 
+cmake
+set(CMAKE_PREFIX_PATH "你的Qt安装路径/msvc2022_64" ${CMAKE_PREFIX_PATH})
+使用 Qt Creator 或 Visual Studio 打开 CMakeLists.txt 进行编译。
+
+编译成功后，使用 windeployqt 提取依赖库即可双击运行。
 
 
 1\. 克隆本项目到本地：
+```bash
+git clone https://github.com/Sejzap/TextEditorAndDraw.git
+```
 
-&#x20;  ```bash
 
-&#x20;  git clone https://github.com/Sejzap/TextEditorAndDraw
 
