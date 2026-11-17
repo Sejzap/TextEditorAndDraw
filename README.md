@@ -56,5 +56,5 @@
 
 &#x20;  ```bash
 
-&#x20;  git clone https://github.com/你的用户名/你的仓库名.git
+&#x20;  git clone https://github.com/Sejzap/TextEditorAndDraw
 
